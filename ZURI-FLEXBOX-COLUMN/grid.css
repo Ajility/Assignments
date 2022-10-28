@@ -1,0 +1,33 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 190px 80px 80px;
+  height: 100vh;
+  width: 100%;
+  place-content: center;
+  gap: 8px;
+  grid-template-areas:
+    "first first second"
+    "third fourth fourth"
+    "third fifth fifth";
+}
+.first {
+  grid-area: first;
+  background-color: red;
+}
+.second {
+  grid-area: second;
+  background-color: orange;
+}
+.third {
+  grid-area: third;
+  background-color: green;
+}
+.fourth {
+  grid-area: fourth;
+  background-color: skyblue;
+}
+.fifth {
+  grid-area: fifth;
+  background-color: skyblue;
+}

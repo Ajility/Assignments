@@ -1,0 +1,94 @@
+.box-1 {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.title-1 {
+  font-size: 2.3rem;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  margin-left: 1rem;
+}
+.item-p {
+  color: hsl(0, 0%, 95%);
+  font-family: sans-serif;
+  margin-top: 1.5rem;
+  margin-bottom: 6rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-size: 15px;
+}
+.button-1 {
+  margin-top: 6rem;
+}
+
+button {
+  color: black;
+  background-color: none;
+  border: 2px solid;
+  text-align: center;
+  padding: 12px 18px;
+  bottom: 0;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+button:hover {
+  color: red;
+}
+.box-2 {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.title-2 {
+  font-size: 2.3rem;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  margin-left: 1rem;
+}
+
+.item-2 {
+  color: hsl(0, 0%, 95%);
+  font-family: sans-serif;
+  margin-top: 1.5rem;
+  margin-bottom: 6rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-size: 15px;
+}
+
+.box-3 {
+  background-color: hsl(179, 100%, 13%);
+}
+.title-3 {
+  font-size: 2.3rem;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  margin-left: 1rem;
+}
+.item-3 {
+  color: hsl(0, 0%, 95%);
+  font-family: sans-serif;
+  margin-top: 1.5rem;
+  margin-bottom: 6rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-size: 15px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: gray;
+}
+@media screen and (max-width: 1440px) {
+  .title-1 {
+    background-color: blue;
+  }
+  .item-2 {
+    background-color: blue;
+  }
+  .item-3 {
+    background-color: blue;
+  }
+}
